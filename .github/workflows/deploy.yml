@@ -1,6 +1,9 @@
 name: Deploy to GitHub Pages
 
 on:
+  push: 
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -19,7 +22,7 @@ jobs:
         with:
           path: .
           node-version: 20 
-          package-manager: yarn@latest 
+          package-manager: pnpm@latest 
 
   deploy:
     needs: build
