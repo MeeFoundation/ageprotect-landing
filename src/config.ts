@@ -3,8 +3,8 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://ageprotect.org/",
   author: "Paul Trevithick",
-  desc: "Age Protect site",
-  title: "Age Protect",
+  desc: "AgeProtect site",
+  title: "AgeProtect",
   ogImage: "agent-presentation.jpg", // TODO replace me with real image
   lightAndDarkMode: true,
   postPerPage: 3,
